@@ -1,63 +1,134 @@
-<h1 align="center">Olá, eu sou o Gustavo</h1>
+<p align="center">
+  <img src="./assets/banner.svg" alt="Gustavo Rafael — Analista de Migração & Dados" width="100%" />
+</p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=2F81F7&center=true&vCenter=true&width=600&lines=Engenharia+de+Dados;Pipelines+ELT+com+Python%2C+BigQuery+e+dbt;P%C3%B3s+em+Big+Data+%26+Intelig%C3%AAncia+Anal%C3%ADtica" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=38BDF8&center=true&vCenter=true&width=640&lines=Migrando+sistemas+legados+com+dados+no+centro;Pipelines+ELT+com+Python%2C+BigQuery+e+dbt;Transformando+opera%C3%A7%C3%A3o+em+indicadores" alt="Typing SVG" />
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/gustavorafael09"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <img src="https://img.shields.io/badge/São_Paulo,_SP-222?style=for-the-badge&logo=googlemaps&logoColor=white" />
+  <img src="https://img.shields.io/badge/São_Paulo,_SP-0f172a?style=for-the-badge&logo=googlemaps&logoColor=38bdf8" />
+  <img src="https://img.shields.io/badge/Aberto_a_oportunidades_em_Dados-0f172a?style=for-the-badge&logo=databricks&logoColor=a78bfa" />
 </p>
 
 ---
 
-### Sobre mim
+## 👨‍💻 Sobre mim
 
-- Formado em **Ciência da Computação** (Anhembi Morumbi) e cursando pós em **Big Data & Inteligência Analítica** (PUCPR)
-- Vindo do **suporte técnico** (N1 → N2) e fazendo a transição para **Engenharia de Dados**
-- Gosto de construir pipelines **ELT** de ponta a ponta: ingestão, modelagem dimensional, testes de qualidade e orquestração
+```python
+class Gustavo:
+    cargo      = "Analista de Migração & Dados @ Omnismart"
+    formacao   = ["Ciência da Computação — Anhembi Morumbi",
+                  "Pós em Big Data & Inteligência Analítica — PUCPR (cursando)"]
+    trajetoria = ["Suporte N1", "Suporte N2", "Migração & Dados", "Engenharia de Dados 🎯"]
+    foco       = ["Pipelines ELT", "Modelagem dimensional", "Qualidade de dados", "Dashboards"]
+```
 
-### Stack
+## 💼 O que faço hoje
 
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=python,gcp,git,github,githubactions,linux&theme=dark" />
-</p>
+<table>
+<tr>
+<td width="50%" valign="top">
 
-<p align="left">
-  <img src="https://img.shields.io/badge/BigQuery-669DF6?style=flat-square&logo=googlebigquery&logoColor=white" />
-  <img src="https://img.shields.io/badge/dbt-FF694B?style=flat-square&logo=dbt&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" />
-</p>
+**🔄 Migração de plataforma**
+- Conduzo a migração de clientes do **PABX legado** para a nova plataforma, do levantamento de requisitos até a virada de chave
+- Configuro ambientes **VoIP**: ramais, filas, URAs, troncos, DIDs, rotas, chatbots e pesquisas de satisfação
+- Comparo componentes migrados com os existentes no ambiente antigo e **elimino configurações obsoletas**
 
----
+</td>
+<td width="50%" valign="top">
 
-### Projetos em destaque
+**📊 Dados aplicados à operação**
+- Construí um **sistema interno de controle de migrações** com **PostgreSQL, Python e Streamlit**, com rastreio de etapas, métricas de qualidade e análise de gargalos por responsável
+- Criei **dashboards em Power BI** que transformam o controle operacional em **indicadores estratégicos**
 
-#### [bcb-indicadores-pipeline](https://github.com/Gusouzd/bcb-indicadores-pipeline)
-Pipeline **automatizado** que extrai diariamente **SELIC, IPCA e câmbio (USD)** da API SGS do Banco Central.
-
-`Python` → `BigQuery (raw)` → `dbt (star schema)` · orquestrado com **GitHub Actions** todo dia útil às 6h
-
-- Carga **idempotente** (MERGE incremental, sem duplicação em reexecuções)
-- Modelagem dimensional com tabelas fato e dimensão
-- **19 testes** de qualidade com dbt
-
-#### [olist-payments-analytics](https://github.com/Gusouzd/olist-payments-analytics)
-Pipeline ELT sobre ~100 mil pedidos do e-commerce brasileiro (Olist), analisando **meios de pagamento, vouchers e parcelamento**.
-
-`Python` → `BigQuery` → `dbt (staging → intermediate → marts)`
-
-- Cartão de crédito responde por **mais de 70% do valor transacionado**
-- Ticket médio no crédito de **R$ 163** com **3,5 parcelas** em média, contra pagamento à vista no boleto/débito
-- **26 testes** automatizados passando e DAG documentado com linhagem
+</td>
+</tr>
+</table>
 
 ---
 
-### Estatísticas
+## 🛠️ Stack
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Gusouzd&show_icons=true&theme=github_dark&hide_border=true&locale=pt-br" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gusouzd&layout=compact&theme=github_dark&hide_border=true&locale=pt-br" />
+  <img src="https://skillicons.dev/icons?i=python,postgres,gcp,git,github,githubactions,linux&theme=dark" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/BigQuery-669DF6?style=flat-square&logo=googlebigquery&logoColor=white" />
+  <img src="https://img.shields.io/badge/dbt-FF694B?style=flat-square&logo=dbt&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" />
+  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black" />
+  <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" />
+  <img src="https://img.shields.io/badge/VoIP_/_PABX-0f172a?style=flat-square&logo=voipdotms&logoColor=38bdf8" />
+</p>
+
+---
+
+## 🚀 Projetos em destaque
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🏦 [bcb-indicadores-pipeline](https://github.com/Gusouzd/bcb-indicadores-pipeline)
+
+Pipeline **automatizado** que coleta diariamente **SELIC, IPCA e câmbio (USD)** da API SGS do Banco Central.
+
+```
+API BCB ─▶ Python ─▶ BigQuery ─▶ dbt ─▶ Star schema
+            ⏰ GitHub Actions · dias úteis às 6h
+```
+
+✅ Carga **idempotente** (MERGE incremental)<br>
+✅ Modelagem dimensional (fato + dimensões)<br>
+✅ **19 testes** de qualidade com dbt
+
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![BigQuery](https://img.shields.io/badge/-BigQuery-669DF6?style=flat-square&logo=googlebigquery&logoColor=white)
+![dbt](https://img.shields.io/badge/-dbt-FF694B?style=flat-square&logo=dbt&logoColor=white)
+![Actions](https://img.shields.io/badge/-Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+
+</td>
+<td width="50%" valign="top">
+
+### 🛒 [olist-payments-analytics](https://github.com/Gusouzd/olist-payments-analytics)
+
+ELT sobre **~100 mil pedidos** do e-commerce brasileiro, com análise de **meios de pagamento, vouchers e parcelamento**.
+
+```
+Kaggle ─▶ Python ─▶ BigQuery ─▶ dbt
+          staging → intermediate → marts
+```
+
+💳 Crédito: **mais de 70%** do valor transacionado<br>
+📈 Ticket médio de **R$ 163** em **3,5 parcelas**<br>
+✅ **26 testes** passando e DAG documentado
+
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![BigQuery](https://img.shields.io/badge/-BigQuery-669DF6?style=flat-square&logo=googlebigquery&logoColor=white)
+![dbt](https://img.shields.io/badge/-dbt-FF694B?style=flat-square&logo=dbt&logoColor=white)
+![pandas](https://img.shields.io/badge/-pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🐍 Contribuições
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Gusouzd/Gusouzd/output/snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Gusouzd/Gusouzd/output/snake-light.svg" />
+    <img alt="Animação de contribuições" src="https://raw.githubusercontent.com/Gusouzd/Gusouzd/output/snake-dark.svg" />
+  </picture>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Gusouzd&label=Visitas+no+perfil&color=38bdf8&style=flat-square" />
 </p>
